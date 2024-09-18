@@ -1,0 +1,148 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name: Author Name
+Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.
+-------------------------------------------------------------------*/
+
+/*==========================================Reset Css==========================================*/
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+
+==========================================
+    HEADER STYLE;
+==========================================
+*/
+/*navbar start*/
+.header-main {
+    position: relative;
+}
+
+.header-main {
+    width: 100%;
+    height: 100%;
+    background: green;
+    border: 3px solid red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*last ul li start-----------------------------------------*/
+.main-menu ul li {
+    float: left;
+    margin-left: 50px;
+}
+
+.main-menu ul li a {
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 10px 0px 28px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.main-menu ul {
+    float: right;
+}
+
+.main-menu ul li a:hover {
+    color: yellow;
+    transition: .5s;
+
+}
+
+.main-menu img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+/*last ul li end-----------------------------------------*/
+.main-menu ul button {
+    color: #000;
+    background: red;
+    border: none;
+    margin-right: 20px;
+}
+
+.main-menu ul button:hover {
+    color: red;
+    background: #000;
+    font-weight: 600;
+    transition: .8s;
+}
+
+/*navbar end*/
+/*2nd*/
+.second-nav{
+    margin-top: 20px;
+    border: 3px solid magenta;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.sec-nd {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: raleway;
+    border: 1px solid #fff;
+    padding: 10px;
+    margin-left: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar-nav {
+    margin-right: 80px;
+}
+
+.nav-item {
+    padding-right: 10px;
+    font-size: 17px;
+    font-family: raleway;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+
+/*2nd*/
